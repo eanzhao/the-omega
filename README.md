@@ -4,7 +4,8 @@
 ![Math](https://img.shields.io/badge/Math-Von_Neumann_Algebras-red?style=for-the-badge)
 ![Build](https://img.shields.io/badge/Build-mdBook-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC_BY_4.0-orange?style=for-the-badge)
-[![Website](https://img.shields.io/badge/Read_Online-omega.dw.cash-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omega.dw.cash/)
+[![Website CN](https://img.shields.io/badge/Read_Online_(CN)-omega.dw.cash-2ea44f?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omega.dw.cash/)
+[![Website EN](https://img.shields.io/badge/Read_Online_(EN)-omega.dw.cash/en-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omega.dw.cash/index_en.html)
 
 > *"The Universe is not a simulation. It is a self-referencing mathematical proof."*
 
@@ -78,7 +79,7 @@ This work is organized into five volumes, tracing the derivation from abstract a
 ## 🛠️ How to Build
 
 ### Read Online
-> **[omega.dw.cash](https://omega.dw.cash/)**
+> **[中文版 (Chinese)](https://omega.dw.cash/)** | **[English Version](https://omega.dw.cash/index_en.html)**
 
 This project is built using [mdBook](https://github.com/rust-lang/mdBook).
 
