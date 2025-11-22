@@ -38,6 +38,16 @@ jobs:
             ${{ runner.os }}-cargo-${{ env.MDBOOK_VERSION }}-
             ${{ runner.os }}-cargo-
             
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install mermaid-cli
+        run: |
+          npm install -g @mermaid-js/mermaid-cli
+          mmdc --version
+      
       - name: Install mdBook
         run: |
           # Check if mdbook is already installed and has the correct version

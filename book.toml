@@ -2,7 +2,7 @@
 authors = ["Auric"]
 language = "en"
 src = "docs"
-title = "The Ontology"
+title = "The Omega Framework"
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
@@ -11,7 +11,7 @@ command = "mdbook-mermaid"
 after = ["mermaid"]
 
 [output.html]
-git-repository-url = "https://github.com/loning/the-ontology"
+git-repository-url = "https://github.com/loning/the-omega"
 mathjax-support = true
 no-section-label = true
 additional-js = ["mermaid.min.js", "mermaid-init.js", "google-analytics.js"]
