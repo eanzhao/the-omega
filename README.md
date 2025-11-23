@@ -17,10 +17,18 @@
   <em>Figure 1: The Topology of Awakening. Visualizing the moment where the QCA Lattice folds into a Self-Referential Knot (Consciousness).</em>
 </p>
 
+---
+
+## 🎬 Introduction Video
+
 <p align="center">
+  <strong>Watch the Framework Explained</strong>
+  <br><br>
   <a href="https://youtu.be/-bhgzuFOaro">
-    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="Watch the video" width="100%" style="max-width: 560px;">
+    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="Watch the video" width="100%" style="max-width: 640px; border: 3px solid #FF0000; border-radius: 8px;">
   </a>
+  <br>
+  <em>Click the image above to watch the video on YouTube</em>
 </p>
 
 ---

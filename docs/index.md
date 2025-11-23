@@ -11,13 +11,23 @@
   <img src="./assets/img/architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
+**The Omega Framework** is an ambitious project to reconstruct theoretical physics, aiming to establish a **completely finite, discrete, and self-consistent** axiomatic system.
+
+---
+
+## 🎬 Introduction Video
+
 <p align="center">
+  <strong>Watch the Framework Explained</strong>
+  <br><br>
   <a href="https://youtu.be/-bhgzuFOaro">
-    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="Watch the video" width="100%" style="max-width: 560px;">
+    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="Watch the video" width="100%" style="max-width: 640px; border: 3px solid #FF0000; border-radius: 8px;">
   </a>
+  <br>
+  <em>Click the image above to watch the video on YouTube</em>
 </p>
 
-**The Omega Framework** is an ambitious project to reconstruct theoretical physics, aiming to establish a **completely finite, discrete, and self-consistent** axiomatic system.
+---
 
 Unlike traditional physics, which relies on the presuppositions of continuous manifolds and differential equations, this framework starts from the very bottom of **Information Theory** and **Algebraic Geometry**, answering the following core questions:
 1.  **Ontology**: How does continuous spacetime geometry emerge from pure quantum information (Qubits)?

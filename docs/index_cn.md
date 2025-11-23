@@ -11,13 +11,23 @@
   <img src="./assets/img/architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
+**The Omega Framework** 是一项宏大的理论物理重构工程，旨在建立一个**完全有限、离散且自洽**的物理公理体系。
+
+---
+
+## 🎬 介绍视频
+
 <p align="center">
+  <strong>观看框架讲解</strong>
+  <br><br>
   <a href="https://youtu.be/-bhgzuFOaro">
-    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="观看视频" width="100%" style="max-width: 560px;">
+    <img src="https://img.youtube.com/vi/-bhgzuFOaro/maxresdefault.jpg" alt="观看视频" width="100%" style="max-width: 640px; border: 3px solid #FF0000; border-radius: 8px;">
   </a>
+  <br>
+  <em>点击上方图片在 YouTube 上观看视频</em>
 </p>
 
-**The Omega Framework** 是一项宏大的理论物理重构工程，旨在建立一个**完全有限、离散且自洽**的物理公理体系。
+---
 
 不同于传统物理学依赖连续流形和微分方程的预设，本框架从**信息论**和**代数几何**的最底层出发，回答以下核心问题：
 1.  **本体论**：如何从纯粹的量子信息（Qubit）中涌现出连续的时空几何？
