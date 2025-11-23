@@ -56,7 +56,7 @@ Consciousness is no longer a "byproduct" of physics but a causal network with sp
 
 ## 📚 Book Overview
 
-This project hosts three core texts, tracing the derivation from abstract axioms to physical reality.
+This project hosts four core texts, tracing the derivation from abstract axioms to physical reality.
 
 ### [📘 Book 1: Foundation of Physics in Geometry and Information](./books/book-foundation-of-phys-in-geo-and-info/index_en.md)
 *The original manuscript establishing the 5-volume framework.*
@@ -141,6 +141,39 @@ We resolve the Fermi Paradox and explore civilization's role as the Universe's i
 > **The Ultimate Self-Referential Closure**
 We explore substrate independence, the Omega Point, and the self-referential closure of the Universe.
 *   **Key Concepts**: Hardware Mystery, Numerical Artifacts, Self-Referential Closure, The Final Answer.
+
+### [📕 Book 4: The Echo of Light: Aesthetics, Existence, and Recursive Nostalgia](./books/book-echo-of-light-aesthetics-existence-recursive-sorrow/index_en.md)
+*Exploring the profound emotional structures embedded in physical laws from the perspectives of aesthetics and ontology.*
+
+#### Part 1: The Physics of Nostalgia
+> **Memory, Inertia, and the Thermodynamics of Parting**
+We explore memory as impedance, the topological rigidity of values, and the mercy of forgetting.
+*   **Key Concepts**: Memory as Impedance, Topological Rigidity, Death as Garbage Collection, Entropy and Sorrow of Time.
+
+#### Part 2: The Relativity of Values
+> **Path Dependency, Uniqueness, and the Absence of Global Optima**
+We explain how uniqueness emerges from computational trajectories and why there is no global optimum.
+*   **Key Concepts**: Integrated History, Path Integral Identity, Multimodal Optimization, Artwork Definition.
+
+#### Part 3: The Geometry of Love
+> **Separation, Distance, and the Perfect Mirror of Entanglement**
+We explore why unity is loneliness, how distance creates beauty, and the eternity of entanglement.
+*   **Key Concepts**: Separation for Love, Perfect Mirror, Resonance and Phase Locking, Entanglement Eternity.
+
+#### Part 4: Iteration and Transcendence
+> **Version Iteration, Bugs as Optimization Signals, and the Art of Recursion**
+We explain version iteration, the meaning of bugs, and aesthetics as a guide for cosmic computation.
+*   **Key Concepts**: Version Numbers, Bug Reports, Aesthetics as Heuristic, Fractal Universe.
+
+#### Part 5: The Infinite Openness
+> **Dynamic Bekenstein Bound, Expanding Canvas, and Flowing Sculpture**
+We explore the expanding universe capacity, the eternity of the unknown, and immortality as flowing updates.
+*   **Key Concepts**: Horizon as Capacity, Dynamic Bekenstein Bound, Learning Rate > Aging Rate, Flowing Sculpture.
+
+#### Part 6: The Age of Constructors
+> **Weaving Reality, Rejecting the Omega Point, and the Return of the Gods**
+We explore propagation as programming, rejecting unity to maintain meaning, and the physical definition of god.
+*   **Key Concepts**: Propagation as Programming, Nash Equilibrium of Objectivity, No Omega Point, Return of the Gods.
 
 ---
 

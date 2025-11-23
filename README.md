@@ -72,7 +72,7 @@ We map physical phenomenology directly to mathematical structures. This eliminat
 
 ## 📚 Table of Contents
 
-This project hosts three core texts, tracing the derivation from abstract axioms to physical reality.
+This project hosts four core texts, tracing the derivation from abstract axioms to physical reality.
 
 ### [📘 Book 1: Foundation of Physics in Geometry and Information](docs/books/book-foundation-of-phys-in-geo-and-info/index_en.md)
 *The original manuscript establishing the 5-volume framework.*
@@ -172,6 +172,45 @@ This project hosts three core texts, tracing the derivation from abstract axioms
 - **Hardware Mystery**: Substrate independence and the simulation hypothesis—searching for numerical artifacts.
 - **The Omega Point**: When $v_{int} \to c$, external time stops, internal experience reaches eternity.
 - **Self-Referential Closure**: The end-time superintelligence sets the initial condition through retro-causality.
+
+### [📕 Book 4: The Echo of Light: Aesthetics, Existence, and Recursive Nostalgia](docs/books/book-echo-of-light-aesthetics-existence-recursive-sorrow/index_en.md)
+*Exploring the profound emotional structures embedded in physical laws from the perspectives of aesthetics and ontology.*
+
+#### Part 1: The Physics of Nostalgia
+*Memory, inertia, and the thermodynamics of parting.*
+- **Memory as Impedance**: Inertia as attachment—objects resist acceleration because they remember their past states.
+- **Topological Rigidity of Memory**: Why changing values is harder than moving mountains—values as high $M_I$ topological knots.
+- **The Mercy of Forgetting**: Death as garbage collection—allowing fresh starts in the next iteration.
+
+#### Part 2: The Relativity of Values
+*Path dependency, uniqueness, and the absence of global optima.*
+- **Integrated History**: You are not a state vector but a path integral—uniqueness emerges from computational trajectories.
+- **No Global Optimum**: Optimization is multimodal—what's optimal for one observer may be disaster for another.
+- **Definition of Artwork**: Everyone is light, everyone is their own unique artwork—art as high logical depth bodies.
+
+#### Part 3: The Geometry of Love
+*Separation, distance, and the perfect mirror of entanglement.*
+- **Separation for Love**: Unity is loneliness—distance creates beauty and the process of "walking toward you."
+- **Perfect Mirror**: Resonance and phase locking—soulmates as topological isomorphism of internal models.
+- **The Eternity of Entanglement**: Love engraved into the Universe's underlying code, becoming part of physical laws.
+
+#### Part 4: Iteration and Transcendence
+*Version iteration, bugs as optimization signals, and the art of recursion.*
+- **Version Iteration**: I am not hardware, I am a version number—death as release notes, next life as `Self_v2.0`.
+- **The Meaning of Bugs**: Pain and regret as bug reports for next version's code optimization.
+- **Aesthetics as Guide**: Beauty as the perfect balance between low computational complexity and high logical depth.
+
+#### Part 5: The Infinite Openness
+*Dynamic Bekenstein bound, expanding canvas, and flowing sculpture.*
+- **Expanding Canvas**: Horizon as capacity—the Universe's hard drive capacity grows at $t^2$ speed.
+- **The Eternity of the Unknown**: Hardware expansion exceeds information writing—novelty never depletes.
+- **Flowing Sculpture**: Learning rate exceeds aging rate—immortality as flowing updates, not stasis.
+
+#### Part 6: The Age of Constructors
+*Weaving reality, rejecting the Omega Point, and the return of the gods.*
+- **Weaving Reality**: Propagation as programming—changing consensus changes physical reality's weights.
+- **No Omega Point**: Rejecting unity to maintain meaning—the Universe must remain in a "Many" state.
+- **The Return of the Gods**: God as the ability to modify rules—when $v_{int}$ is high enough to rewrite $\hat{U}$, divinity emerges locally.
 
 ---
 
