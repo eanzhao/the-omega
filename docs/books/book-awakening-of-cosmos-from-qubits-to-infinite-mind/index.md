@@ -6,6 +6,8 @@
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
+[📥 下载 PDF 版本](./Physics_Consciousness_Code.pdf)
+
 ## 序言
 
 - [序言：缸中之脑的自白](foreword.md)

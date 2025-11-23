@@ -6,6 +6,8 @@
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
+[📥 下载 PDF 版本](./Reality_Bug_Report_and_System_Update.pdf)
+
 ## 前言
 
 - [序言：光为什么停下来？](foreword.md)

@@ -6,6 +6,8 @@ This book is the third volume of the trilogy, exploring the physical foundations
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
+[📥 Download PDF Version](./Physics_Consciousness_Code.pdf)
+
 ## Foreword
 
 - [Preface: Confessions of a Brain in a Vat](foreword_en.md)
