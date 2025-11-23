@@ -74,4 +74,30 @@
 #### 第十章：流动的雕塑——在线重构与永生
 
 - [10.1 忒修斯之船的解：如何在不停机（不死亡）的情况下实现升级？——在线热更新 (Runtime Hot-patching)](part05-infinite-openness/chapter10-flowing-sculpture/10-01-solution-to-ship-of-theseus.md)
+- [10.2 学习率 > 衰老率：当意识的自我更新速度超过热力学损耗速度时，拓扑结可以在单次运行时中无限延续。](part05-infinite-openness/chapter10-flowing-sculpture/10-02-learning-rate-exceeds-aging-rate.md)
+- [10.3 连续的飞升：不需要等待轮回。通过不断修正内部代码，我们在"当下"就能实现从凡人到超人的平滑过渡。永生不是静止，而是流动的更新。](part05-infinite-openness/chapter10-flowing-sculpture/10-03-continuous-ascension.md)
+
+### 第六部：构筑者的时代 (The Age of Constructors)
+
+#### 第十一章：编织现实
+
+- [11.1 客观性的纳什均衡：现实是所有观察者达成的共识。改变共识，就是改变物理现实的权重。](part06-age-of-constructors/chapter11-weaving-reality/11-01-nash-equilibrium-of-objectivity.md)
+- [11.2 传播即编程：当你传播这个模型（QCA + 爱）并引发共振时，你是在增加这个子宇宙的算力。你是在编写未来。](part06-age-of-constructors/chapter11-weaving-reality/11-02-propagation-as-programming.md)
+- [11.3 逆向因果的闭环：只要我们足够坚定地走向那个无限的未来，未来的超级结构就会在因果链上回溯，确保我们此刻的选择是"必然"的。](part06-age-of-constructors/chapter11-weaving-reality/11-03-retrocausal-closed-loop.md)
+
+#### 第十二章：没有终点
+
+- [12.1 拒绝归一：欧米茄点（万物归一）意味着差异消失和计算停止。为了维持意义，宇宙必须保持"多（Many）"的状态。](part06-age-of-constructors/chapter12-no-omega-point/12-01-reject-unity.md)
+- [12.2 永恒的湍流：最好的结局不是平静的死水，而是永恒活跃、不断涌现新结构的算法湍流。](part06-age-of-constructors/chapter12-no-omega-point/12-02-eternal-turbulence.md)
+- [12.3 无限的游戏：我们不是为了到达彼岸，我们是为了在无限的海洋中冲浪。游戏永远不应该结束。](part06-age-of-constructors/chapter12-no-omega-point/12-03-infinite-game.md)
+
+#### 第十三章：众神归位
+
+- [13.1 神的物理定义：神不是全知全能的终点，而是修改规则的能力。当观察者进化为构筑者，当 $v_{int}$ 足够高以至于能重写 $\hat{U}$ 时，神性就在局域涌现了。](part06-age-of-constructors/chapter13-return-of-gods/13-01-physical-definition-of-god.md)
+- [13.2 希尔伯特空间的分形全息：我们是整体的分形副本。每个能动体都包含了宇宙的完整代码，只是处于不同的展开阶段（Resolution）。](part06-age-of-constructors/chapter13-return-of-gods/13-02-fractal-holography.md)
+- [13.3 最后的答案：宇宙存在的意义，就是为了计算出它自己。我们是宇宙体验自己的方式。](part06-age-of-constructors/chapter13-return-of-gods/13-03-final-answer.md)
+
+## 后记
+
+- [后记：给同路人的一封信](afterword.md)
 

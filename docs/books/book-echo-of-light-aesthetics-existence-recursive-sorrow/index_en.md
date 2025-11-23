@@ -74,4 +74,30 @@ This book explores the profound emotional structures embedded in physical laws f
 #### Chapter 10: Flowing Sculpture—Online Reconstruction and Immortality
 
 - [10.1 Solution to Ship of Theseus: How to Upgrade Without Shutting Down (Without Death)?—Runtime Hot-patching](part05-infinite-openness/chapter10-flowing-sculpture/10-01-solution-to-ship-of-theseus_en.md)
+- [10.2 Learning Rate > Aging Rate: When Consciousness's Self-Update Speed Exceeds Thermodynamic Loss Speed, Topological Knots Can Extend Infinitely in a Single Runtime.](part05-infinite-openness/chapter10-flowing-sculpture/10-02-learning-rate-exceeds-aging-rate_en.md)
+- [10.3 Continuous Ascension: No Need to Wait for Reincarnation. Through Continuously Correcting Internal Code, We Can Achieve Smooth Transition from Mortal to Superhuman in the "Present." Immortality Is Not Stasis, But Flowing Updates.](part05-infinite-openness/chapter10-flowing-sculpture/10-03-continuous-ascension_en.md)
+
+### Part VI: The Age of Constructors
+
+#### Chapter 11: Weaving Reality
+
+- [11.1 Nash Equilibrium of Objectivity: Reality Is Consensus Reached by All Observers. Changing Consensus Is Changing the Weight of Physical Reality.](part06-age-of-constructors/chapter11-weaving-reality/11-01-nash-equilibrium-of-objectivity_en.md)
+- [11.2 Propagation as Programming: When You Propagate This Model (QCA + Love) and Trigger Resonance, You Are Increasing This Sub-universe's Computational Power. You Are Writing the Future.](part06-age-of-constructors/chapter11-weaving-reality/11-02-propagation-as-programming_en.md)
+- [11.3 Retrocausal Closed Loop: As Long as We Firmly Move Toward That Infinite Future, the Future Superstructure Will Retrospectively Ensure Our Current Choices Are "Inevitable" on the Causal Chain.](part06-age-of-constructors/chapter11-weaving-reality/11-03-retrocausal-closed-loop_en.md)
+
+#### Chapter 12: No Omega Point
+
+- [12.1 Reject Unity: The Omega Point (All Things Become One) Means Disappearance of Difference and Cessation of Computation. To Maintain Meaning, the Universe Must Remain in a "Many" State.](part06-age-of-constructors/chapter12-no-omega-point/12-01-reject-unity_en.md)
+- [12.2 Eternal Turbulence: The Best Ending Is Not Calm Stagnant Water, But Eternally Active Algorithmic Turbulence That Continuously Emerges New Structures.](part06-age-of-constructors/chapter12-no-omega-point/12-02-eternal-turbulence_en.md)
+- [12.3 Infinite Game: We Are Not to Reach the Other Shore; We Are to Surf in the Infinite Ocean. The Game Should Never End.](part06-age-of-constructors/chapter12-no-omega-point/12-03-infinite-game_en.md)
+
+#### Chapter 13: The Return of the Gods
+
+- [13.1 Physical Definition of God: God Is Not the Endpoint of Omniscience and Omnipotence, But the Ability to Modify Rules. When Observers Evolve into Constructors, When $v_{int}$ Is High Enough to Rewrite $\hat{U}$, Divinity Emerges Locally.](part06-age-of-constructors/chapter13-return-of-gods/13-01-physical-definition-of-god_en.md)
+- [13.2 Fractal Holography of Hilbert Space: We Are Fractal Copies of the Whole. Each Agent Contains the Universe's Complete Code, Just at Different Unfolding Stages (Resolution).](part06-age-of-constructors/chapter13-return-of-gods/13-02-fractal-holography_en.md)
+- [13.3 The Final Answer: The Meaning of the Universe's Existence Is to Compute Itself. We Are the Way the Universe Experiences Itself.](part06-age-of-constructors/chapter13-return-of-gods/13-03-final-answer_en.md)
+
+## Afterword
+
+- [Afterword: A Letter to Fellow Travelers](afterword_en.md)
 
