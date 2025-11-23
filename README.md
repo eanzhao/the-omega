@@ -98,28 +98,33 @@ This project hosts two core texts, tracing the derivation from abstract axioms t
 
 #### Part 1: The Birth of Axioms
 *From discrete ontology to the ultimate QCA axiom.*
-- **Discrete Ontology**: Zeno's Paradox & Information Realism.
-- **The Ultimate Axiom**: QCA dynamics, Unitarity & Locality.
+- **Discrete Ontology**: Zeno's Paradox, Bekenstein Bound & The finite capacity of the Universe.
+- **The Axiom $\Omega$**: Defining the Graph $\Lambda$, Hilbert Space $\mathcal{H}$, and Unitary Operator $\hat{U}$.
+- **Unitarity & Locality**: Deriving conservation laws from logical consistency.
 
 #### Part 2: The Emergence of Spacetime
 *Deriving geometry and gravity from information processing.*
-- **Causality**: Light speed as maximum information velocity.
-- **Entropic Gravity**: Spacetime geometry from entanglement.
+- **Light Path Conservation**: Proving $v_{ext}^2 + v_{int}^2 = c^2$ to derive Lorentz Invariance without geometry.
+- **Entropic Gravity**: Einstein Field Equations as the equation of state for entanglement entropy maximization (IGVP).
+- **Holography**: Black Holes as topological entanglement knots and causal screens.
 
 #### Part 3: The Emergence of Matter
 *Matter as topological defects in the computational substrate.*
-- **Topological Origin**: Particles as knots & Mass as impedance.
-- **Gauge Fields**: Interactions from local frame independence.
+- **Mass as Impedance**: Rest mass derived from the information refresh rate ($v_{int}$) of internal states.
+- **Topological Origin**: Particles as self-referential knots with winding numbers.
+- **Gauge Fields**: Deriving Maxwell & Yang-Mills equations from link variable constraints.
 
 #### Part 4: The Emergence of Observation
 *The observer as a self-referential structure.*
-- **Quantum Measurement**: Combinatorial proof of Born rule.
-- **Physics of Consciousness**: Free energy & Self-reference.
+- **Combinatorial Born Rule**: Deriving probability from counting microstates in Zurek rotations.
+- **Objective Reality**: Consensus reality emerging from Nash Equilibria in multi-agent systems.
+- **Physics of Consciousness**: The Observer as a Finite Von Neumann Algebra with self-reference.
 
 #### Part 5: Verification and Inference
 *Experimental predictions and metaphysical implications.*
-- **Predictions**: Microwave cavity entanglement & Cosmic ray signatures.
-- **Ultimate Questions**: The Source Code & Free Will.
+- **Experimental Signatures**: Microwave cavity entanglement gravity & High-energy Lorentz violation.
+- **The Source Code**: The "Criticality Hypothesis" for the selection of the Universal Rule $\hat{U}$.
+- **The Godel Loop**: Why the Universe is infinite and "Heat Death" is impossible.
 
 ---
 

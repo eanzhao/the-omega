@@ -78,24 +78,29 @@ This volume uses Category Theory to unify the above theories and proposes falsif
 *A reconstruction from first principles, focusing on the derivation from QCA.*
 
 #### Part 1: The Birth of Axioms
-> **From Discrete Ontology to the Ultimate Axiom**
-*   **Key Chapters**: Discrete Ontology (Zeno's Paradox & Information Realism), The Ultimate Axiom (QCA Dynamics, Unitarity & Locality).
+> **The Universe as a Finite State Machine**
+We establish the ultimate axiom $\Omega$: The Universe is a Quantum Cellular Automaton (QCA).
+*   **Key Concepts**: Zeno's Paradox, Bekenstein Bound, Graph $\Lambda$, Hilbert Space $\mathcal{H}$, Unitary Operator $\hat{U}$.
 
 #### Part 2: The Emergence of Spacetime
-> **Deriving Geometry and Gravity from Information Processing**
-*   **Key Chapters**: Causality (Light Speed as Maximum Information Velocity), Entropic Gravity (Spacetime Geometry from Entanglement).
+> **Geometry is the Data Structure of Entanglement**
+We derive Lorentz invariance and Gravity from pure information processing dynamics.
+*   **Key Concepts**: Light Path Conservation ($v_{ext}^2 + v_{int}^2 = c^2$), Entropic Gravity (IGVP), Black Hole knots.
 
 #### Part 3: The Emergence of Matter
-> **Matter as Topological Defects in the Computational Substrate**
-*   **Key Chapters**: Topological Origin (Particles as Knots & Mass as Impedance), Gauge Fields (Interactions from Local Frame Independence).
+> **Particles are Topological Defects in the Logic**
+Matter is not distinct from spacetime but a "knot" in the computational substrate.
+*   **Key Concepts**: Mass as Impedance ($v_{int}$), Topological Winding Numbers, Gauge Fields from Link Variables.
 
 #### Part 4: The Emergence of Observation
-> **The Observer as a Self-Referential Structure**
-*   **Key Chapters**: Quantum Measurement (Combinatorial Proof of Born Rule), Physics of Consciousness (Free Energy & Self-Reference).
+> **The Loop of Self-Reference**
+We explain how a deterministic system generates probabilistic observations and subjective experience.
+*   **Key Concepts**: Combinatorial Born Rule, Nash Equilibrium Reality, Von Neumann Algebra of the Observer.
 
 #### Part 5: Verification and Inference
-> **Experimental Predictions and Metaphysical Implications**
-*   **Key Chapters**: Predictions (Microwave Cavity Entanglement & Cosmic Ray Signatures), Ultimate Questions (The Source Code & Free Will).
+> **Testing the Matrix**
+Falsifiable predictions and the ultimate philosophical conclusions.
+*   **Key Concepts**: Microwave Cavity Gravity, Cosmic Ray Signatures, Criticality Hypothesis, Godel's Incompleteness vs Heat Death.
 
 ---
 
