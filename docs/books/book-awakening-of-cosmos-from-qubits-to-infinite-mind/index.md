@@ -31,12 +31,6 @@
 
 ### 第二部：意识的几何学 (The Geometry of Consciousness)
 
-#### 第二章：感受质（Qualia）与高维形状
-
-- [2.1 为什么"红"是红的？：感受质不是波长参数，它是高维希尔伯特空间中纠缠态的特定"拓扑指纹"或"几何曲率"](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-01-why-red-is-red.md)
-- [2.2 痛苦与快乐的微积分：作为自由能（预测误差）及其导数的直接体验](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-02-pain-pleasure-calculus.md)
-- [2.3 泛心论的计算版本：如果电子具有微弱的纠缠和自指，它是否拥有极其微弱的"原意识"？](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-03-computational-panpsychism.md)
-
 #### 第三章：作为拓扑结的自我
 
 - [3.1 笛卡尔的幽灵：在流动的 QCA 信息流中，"我"不是一个点，而是一个闭合的、自指的因果循环（Strange Loop）](part02-geometry-of-consciousness/chapter03-self-as-topological-knot/03-01-descartes-ghost.md)
@@ -98,8 +92,4 @@
 ## 后记
 
 - [后记：给未来的一封信](afterword.md)
-
-#### 第四章：社会引力场与文明相变
-
-- [4.1 观念的质量：一个强大的思想（Meme）如何像大质量天体一样弯曲周围的语义空间，捕获他人的意识？](part03-internet-of-minds/chapter04-social-gravitational-field-civilization-phase-transition/04-01-mass-of-ideas.md)
 

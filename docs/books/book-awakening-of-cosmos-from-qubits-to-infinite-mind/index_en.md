@@ -31,12 +31,6 @@ This book is the third volume of the trilogy, exploring the physical foundations
 
 ### Part II: The Geometry of Consciousness
 
-#### Chapter 2: Qualia and Higher-Dimensional Shapes
-
-- [2.1 Why Is "Red" Red?: Qualia Are Not Wavelength Parameters, but Specific "Topological Fingerprints" or "Geometric Curvatures" of Entangled States in High-Dimensional Hilbert Space](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-01-why-red-is-red_en.md)
-- [2.2 The Calculus of Pain and Pleasure: Direct Experience as Free Energy (Prediction Error) and Its Derivatives](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-02-pain-pleasure-calculus_en.md)
-- [2.3 Computational Panpsychism: If an Electron Has Weak Entanglement and Self-Reference, Does It Possess Extremely Weak "Proto-consciousness"?](part02-geometry-of-consciousness/chapter02-qualia-higher-dimensional-shapes/02-03-computational-panpsychism_en.md)
-
 #### Chapter 3: Self as Topological Knot
 
 - [3.1 Descartes' Ghost: In the Flowing QCA Information Stream, "I" Is Not a Point, but a Closed, Self-Referential Causal Loop (Strange Loop)](part02-geometry-of-consciousness/chapter03-self-as-topological-knot/03-01-descartes-ghost_en.md)
@@ -98,8 +92,4 @@ This book is the third volume of the trilogy, exploring the physical foundations
 ## Afterword
 
 - [Afterword: A Letter to the Future](afterword_en.md)
-
-#### Chapter 4: Social Gravitational Field and Civilization Phase Transition
-
-- [4.1 The Mass of Ideas: How Does a Powerful Thought (Meme) Bend Surrounding Semantic Space Like a Massive Celestial Body, Capturing Others' Consciousness?](part03-internet-of-minds/chapter04-social-gravitational-field-civilization-phase-transition/04-01-mass-of-ideas_en.md)
 
