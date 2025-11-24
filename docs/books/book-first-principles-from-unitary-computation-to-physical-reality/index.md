@@ -6,7 +6,7 @@
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
-[📥 下载 PDF 版本](./Reality_Decompiled.pdf)
+[📥 下载 PDF 版本](./Reality_Decompiled.pdf) | [▶️ 视频](https://youtu.be/-bhgzuFOaro)
 
 ## 前言
 

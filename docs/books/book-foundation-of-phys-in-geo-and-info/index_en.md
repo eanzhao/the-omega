@@ -6,7 +6,7 @@ This book aims to establish a physical theoretical framework based on discrete i
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
-[📥 Download PDF Version](./Information_Geometry_Agency.pdf)
+[📥 Download PDF Version](./Information_Geometry_Agency.pdf) | [▶️ Video](https://youtu.be/W5uPFhyYD_k)
 
 ## Foreword
 

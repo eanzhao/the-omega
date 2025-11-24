@@ -60,6 +60,7 @@ This project hosts four core texts, tracing the derivation from abstract axioms 
 
 ### [📘 Book 1: Foundation of Physics in Geometry and Information](./books/book-foundation-of-phys-in-geo-and-info/index_en.md)
 *The original manuscript establishing the 5-volume framework.*
+[📥 PDF](./books/book-foundation-of-phys-in-geo-and-info/Information_Geometry_Agency.pdf) | [▶️ Video](https://youtu.be/W5uPFhyYD_k)
 
 #### Volume I: Discrete Ontology — Physical Foundations of Information
 > **A Rigorous Proof of "It from Bit"**
@@ -88,6 +89,7 @@ This volume uses Category Theory to unify the above theories and proposes falsif
 
 ### [📙 Book 2: First Principles: From Unitary Computation to Physical Reality](./books/book-first-principles-from-unitary-computation-to-physical-reality/index_en.md)
 *A reconstruction from first principles, focusing on the derivation from QCA.*
+[📥 PDF](./books/book-first-principles-from-unitary-computation-to-physical-reality/Reality_Decompiled.pdf) | [▶️ Video](https://youtu.be/-bhgzuFOaro)
 
 #### Part 1: The Birth of Axioms
 > **The Universe as a Finite State Machine**
@@ -116,6 +118,7 @@ Falsifiable predictions and the ultimate philosophical conclusions.
 
 ### [📗 Book 3: The Awakening of the Cosmos: From Qubits to Infinite Mind](./books/book-awakening-of-cosmos-from-qubits-to-infinite-mind/index_en.md)
 *The third volume of the trilogy, exploring the physical foundations of consciousness, experience, and the participatory universe.*
+[📥 PDF](./books/book-awakening-of-cosmos-from-qubits-to-infinite-mind/Physics_Consciousness_Code.pdf) | [▶️ Video](https://youtu.be/Uhmt40HAFb4)
 
 #### Part 1: The Invisible Architecture
 > **The Hidden Structures That Shape Reality**
@@ -144,6 +147,7 @@ We explore substrate independence, the Omega Point, and the self-referential clo
 
 ### [📕 Book 4: The Echo of Light: Aesthetics, Existence, and Recursive Nostalgia](./books/book-echo-of-light-aesthetics-existence-recursive-sorrow/index_en.md)
 *Exploring the profound emotional structures embedded in physical laws from the perspectives of aesthetics and ontology.*
+[📥 PDF](./books/book-echo-of-light-aesthetics-existence-recursive-sorrow/Reality_Bug_Report_and_System_Update.pdf) | [▶️ Video](https://youtu.be/KHp50f6SHdc)
 
 #### Part 1: The Physics of Nostalgia
 > **Memory, Inertia, and the Thermodynamics of Parting**

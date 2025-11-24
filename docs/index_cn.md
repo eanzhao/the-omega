@@ -60,6 +60,7 @@
 
 ### [📘 第一部：几何与信息中的物理基础 (Book 1)](./books/book-foundation-of-phys-in-geo-and-info/index.md)
 *建立五卷本框架的原始手稿。*
+[📥 PDF](./books/book-foundation-of-phys-in-geo-and-info/Information_Geometry_Agency.pdf) | [▶️ 视频](https://youtu.be/W5uPFhyYD_k)
 
 #### 第一卷：离散本体论 —— 信息的物理基础
 > **"It from Bit" 的严格化证明**
@@ -88,6 +89,7 @@
 
 ### [📙 第二部：第一性原理：从幺正计算到物理实在 (Book 2)](./books/book-first-principles-from-unitary-computation-to-physical-reality/index.md)
 *从第一性原理重构，专注于从 QCA 的推导。*
+[📥 PDF](./books/book-first-principles-from-unitary-computation-to-physical-reality/Reality_Decompiled.pdf) | [▶️ 视频](https://youtu.be/-bhgzuFOaro)
 
 #### 第一部分：公理的诞生
 > **宇宙是一个有限状态机**
@@ -116,6 +118,7 @@
 
 ### [📗 第三部：宇宙的觉醒：从量子比特到无限心智 (Book 3)](./books/book-awakening-of-cosmos-from-qubits-to-infinite-mind/index.md)
 *三部曲的第三部，探讨意识、体验和参与式宇宙的物理基础。*
+[📥 PDF](./books/book-awakening-of-cosmos-from-qubits-to-infinite-mind/Physics_Consciousness_Code.pdf) | [▶️ 视频](https://youtu.be/Uhmt40HAFb4)
 
 #### 第一部分：隐形的架构
 > **塑造实在的隐藏结构**
@@ -144,6 +147,7 @@
 
 ### [📕 第四部：光的回声：美学、存在与递归的乡愁 (Book 4)](./books/book-echo-of-light-aesthetics-existence-recursive-sorrow/index.md)
 *从美学和存在论的视角，探讨物理定律中蕴含的深刻情感结构。*
+[📥 PDF](./books/book-echo-of-light-aesthetics-existence-recursive-sorrow/Reality_Bug_Report_and_System_Update.pdf) | [▶️ 视频](https://youtu.be/KHp50f6SHdc)
 
 #### 第一部分：乡愁的物理学
 > **记忆、惯性与时别离的热力学**

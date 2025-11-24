@@ -6,7 +6,7 @@ This book explores the profound emotional structures embedded in physical laws f
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
-[📥 Download PDF Version](./Reality_Bug_Report_and_System_Update.pdf)
+[📥 Download PDF Version](./Reality_Bug_Report_and_System_Update.pdf) | [▶️ Video](https://youtu.be/KHp50f6SHdc)
 
 ## Foreword
 

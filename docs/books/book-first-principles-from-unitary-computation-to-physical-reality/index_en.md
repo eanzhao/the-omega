@@ -6,7 +6,7 @@ This book builds a physical theoretical framework based on discrete information 
   <img src="./architecture.png" alt="The Omega Architecture" width="100%">
 </p>
 
-[📥 Download PDF Version](./Reality_Decompiled.pdf)
+[📥 Download PDF Version](./Reality_Decompiled.pdf) | [▶️ Video](https://youtu.be/-bhgzuFOaro)
 
 ## Foreword
 
