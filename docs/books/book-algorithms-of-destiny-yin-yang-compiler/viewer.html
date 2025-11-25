@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天机算 · Markdown 阅读器</title>
+  <style>
+    /* ... existing styles ... */
+    .markdown-html {
+      max-width: 960px;
+      margin: 0 auto;
+      line-height: 1.75;
+      font-size: 1rem;
+      padding-bottom: 3rem; /* Add some bottom spacing */
+    }
+    
+    /* MathJax overflow handling */
+    mjx-container {
+      overflow-x: auto;
+      overflow-y: hidden;
+      max-width: 100%;
+    }
+
+    /* Image handling */
+    .markdown-html img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    /* Table styles */
+    .markdown-html table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    
+    .markdown-html th,
+    .markdown-html td {
+      border: 1px solid var(--border);
+      padding: 0.75rem;
+      text-align: left;
+    }
+    
+    .markdown-html th {
+      background: rgba(0,0,0,0.03);
+      font-weight: 600;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .markdown-html th {
+        background: rgba(255,255,255,0.05);
+      }
+    }
+
+    /* ... rest ... */
+      --bg: #f5f5f5;
+      --bg-dark: #1f1f1f;
+      --panel: #ffffff;
+      --panel-dark: #2a2a2a;
+      --border: #e0e0e0;
+      --border-dark: #3a3a3a;
+      --accent: #0066ff;
+      --accent-dark: #5ea2ff;
+      --text: #111111;
+      --text-dark: #f8f8f8;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: var(--bg-dark);
+        color: var(--text-dark);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 1rem 2rem;
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      min-height: 0;
+    }
+
+    aside {
+      width: 320px;
+      border-right: 1px solid var(--border);
+      background: var(--panel);
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      padding: 0.75rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+
+    .toolbar button {
+      border: 1px solid var(--border);
+      background: transparent;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .toolbar button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .toolbar span {
+      font-size: 0.85rem;
+      color: #666;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .markdown-container {
+      flex: 1;
+      padding: 1.5rem;
+      overflow-y: auto;
+    }
+
+    .markdown-html {
+      max-width: 960px;
+      margin: 0 auto;
+      line-height: 1.75;
+      font-size: 1rem;
+    }
+
+    .markdown-html h1,
+    .markdown-html h2,
+    .markdown-html h3,
+    .markdown-html h4,
+    .markdown-html h5,
+    .markdown-html h6 {
+      margin: 1.5rem 0 0.8rem;
+      line-height: 1.3;
+    }
+
+    .markdown-html p {
+      margin: 1rem 0;
+    }
+
+    .markdown-html ul,
+    .markdown-html ol {
+      padding-left: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    .markdown-html blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 1.2rem 0;
+      padding-left: 1rem;
+      color: #555;
+      background: rgba(0, 102, 255, 0.06);
+    }
+
+    .markdown-html code {
+      font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+      background: rgba(15, 23, 42, 0.1);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+
+    .markdown-html pre {
+      margin: 1.25rem 0;
+    }
+
+    pre {
+      margin: 0;
+      background: #0f172a;
+      color: #f1f5f9;
+      padding: 1.25rem;
+      border-radius: 10px;
+      font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 0 10px rgba(15, 23, 42, 0.5);
+    }
+
+    .raw-view {
+      max-width: 960px;
+      margin: 1.5rem auto 0;
+      background: rgba(15, 23, 42, 0.06);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 0.75rem 1.25rem;
+    }
+
+    .raw-view summary {
+      cursor: pointer;
+      font-weight: 500;
+      color: var(--accent);
+    }
+
+    .placeholder {
+      background: rgba(15, 23, 42, 0.04);
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      text-align: center;
+      color: #666;
+    }
+
+    .chapter-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .chapter-group-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+
+    .chapter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      padding: 0.65rem 0.75rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .chapter-item:hover {
+      background: rgba(0, 102, 255, 0.08);
+    }
+
+    .chapter-item.active {
+      background: rgba(0, 102, 255, 0.15);
+      border: 1px solid rgba(0, 102, 255, 0.3);
+    }
+
+    .chapter-title {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    .chapter-subtitle {
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .status {
+      font-size: 0.85rem;
+      color: #888;
+      margin-left: auto;
+    }
+
+    @media (max-width: 960px) {
+      aside {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      main {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>《天机算：宇宙全息模拟的参数化实证》Markdown 阅读器</h1>
+    <div class="status" id="status-text">请选择章节</div>
+  </header>
+
+  <main>
+    <aside id="chapter-list"></aside>
+
+    <section class="content">
+      <div class="toolbar">
+        <span id="current-path">未加载章节</span>
+        <button id="reload-btn" type="button" title="强制刷新页面和缓存">刷新</button>
+        <button id="copy-button" type="button">复制 Markdown</button>
+        <button id="download-button" type="button">下载原文</button>
+      </div>
+      <div class="markdown-container">
+        <div id="markdown-html" class="markdown-html">
+          <article class="placeholder">
+            <h2>使用说明</h2>
+            <p>左侧选择任意章节以查看富文本排版。</p>
+            <p><strong>注意：</strong> 本页面依赖 CDN 加载渲染库（Marked & MathJax），请确保网络连接正常。</p>
+            <p>如果是本地 file:// 模式，更新内容需先运行 <code>node scripts/generate-viewer-data.mjs</code>。</p>
+          </article>
+        </div>
+        <details class="raw-view">
+          <summary>查看 Markdown 原文</summary>
+          <pre id="markdown-output"># 使用说明
+
+- 左侧选择任意章节
+- Markdown 原文会在此处显示
+- 可复制或下载原始文件</pre>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- External Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Data Loader -->
+  <script src="./viewer-data.js"></script>
+  
+  <script>
+    const EMBEDDED_MARKDOWN = window.__TAO_MARKDOWN__ || {};
+    const IS_FILE_PROTOCOL = window.location.protocol === "file:";
+
+    // Button handlers
+    document.getElementById("reload-btn").addEventListener("click", () => {
+      const url = new URL(window.location.href);
+      url.searchParams.set("t", Date.now());
+      window.location.href = url.toString();
+    });
+    
+    const BOOK_STRUCTURE = [
+      {
+        title: "总览",
+        items: [
+          { title: "全书目录", subtitle: "index.md", path: "./index.md" },
+          { title: "序言：作为模拟器的道", subtitle: "foreword.md", path: "./foreword.md" }
+        ]
+      },
+      {
+        title: "卷一：底层协议与时空嵌入",
+        items: [
+          { title: "卷一 · 目录索引", subtitle: "index.md", path: "./volume01-base-protocol-embeddings/index.md" },
+          { title: "第一章：真空的句法", subtitle: "阴阳与二进制本体", path: "./volume01-base-protocol-embeddings/chapter01-syntax-of-void.md" },
+          { title: "第二章：向量空间", subtitle: "五行作为能量梯度", path: "./volume01-base-protocol-embeddings/chapter02-vector-space-five-elements.md" },
+          { title: "第三章：时空晶体", subtitle: "干支与六十进制编码", path: "./volume01-base-protocol-embeddings/chapter03-spacetime-crystal.md" }
+        ]
+      },
+      {
+        title: "卷二：离散状态机与六爻",
+        items: [
+          { title: "卷二 · 目录索引", subtitle: "index.md", path: "./volume02-discrete-state-machine-liu-yao/index.md" },
+          { title: "第四章：查询协议", subtitle: "观测引起的坍缩", path: "./volume02-discrete-state-machine-liu-yao/chapter04-query-protocol.md" },
+          { title: "第五章：图论模型", subtitle: "世应与六亲网络", path: "./volume02-discrete-state-machine-liu-yao/chapter05-graph-theory-model.md" },
+          { title: "第六章：多维数据融合", subtitle: "六神与神煞", path: "./volume02-discrete-state-machine-liu-yao/chapter06-data-fusion.md" }
+        ]
+      },
+      {
+        title: "卷三：八字命理与实体系统",
+        items: [
+          { title: "卷三 · 目录索引", subtitle: "index.md", path: "./volume03-entity-component-system-bazi/index.md" },
+          { title: "第七章：初始配置", subtitle: "四柱架构解析", path: "./volume03-entity-component-system-bazi/chapter07-initial-config.md" },
+          { title: "第八章：交互协议", subtitle: "十神注意力机制", path: "./volume03-entity-component-system-bazi/chapter08-interaction-protocol.md" },
+          { title: "第九章：动态演化", subtitle: "大运流年与参数漂移", path: "./volume03-entity-component-system-bazi/chapter09-dynamic-evolution.md" },
+          { title: "第十章：系统调优", subtitle: "格局与用神", path: "./volume03-entity-component-system-bazi/chapter10-system-tuning.md" }
+        ]
+      },
+      {
+        title: "卷四：生物计算与内丹工程",
+        items: [
+          { title: "卷四 · 目录索引", subtitle: "index.md", path: "./volume04-biocomputing-neidan/index.md" },
+          { title: "第十一章：三气热力学", subtitle: "生命操作系统的能源层", path: "./volume04-biocomputing-neidan/chapter11-thermodynamics-of-three-qi.md" },
+          { title: "第十二章：信息高速公路", subtitle: "经络与穴位的波导理论", path: "./volume04-biocomputing-neidan/chapter12-meridian-waveguides.md" },
+          { title: "第十三章：圆运动", subtitle: "人体的流体力学模型", path: "./volume04-biocomputing-neidan/chapter13-circular-motion-vortex.md" },
+          { title: "第十四章：内丹工程", subtitle: "逆向熵增的修炼算法", path: "./volume04-biocomputing-neidan/chapter14-neidan-engineering.md" }
+        ]
+      },
+      {
+        title: "卷五：高阶算法与宏观空间",
+        items: [
+          { title: "卷五 · 目录索引", subtitle: "index.md", path: "./volume05-macro-holographic-spatial/index.md" },
+          { title: "第十五章：全息投影", subtitle: "梅花易数", path: "./volume05-macro-holographic-spatial/chapter15-holographic-principle.md" },
+          { title: "第十六章：空间几何与环境计算", subtitle: "风水与地理", path: "./volume05-macro-holographic-spatial/chapter16-spatial-geometry.md" },
+          { title: "第十七章：宏观模拟与大衍之数", subtitle: "三式与皇极经世", path: "./volume05-macro-holographic-spatial/chapter17-macro-simulation.md" }
+        ]
+      },
+      {
+        title: "附录",
+        items: [
+          { title: "结语：逃逸速度与改命算法", subtitle: "afterword.md", path: "./afterword.md" }
+        ]
+      }
+    ];
+
+    const normalizePath = (path) => path.replace(/^\.\//, "");
+
+    const chapterList = document.getElementById("chapter-list");
+    const markdownOutput = document.getElementById("markdown-output");
+    const markdownHtml = document.getElementById("markdown-html");
+    const currentPathEl = document.getElementById("current-path");
+    const statusText = document.getElementById("status-text");
+    const copyButton = document.getElementById("copy-button");
+    const downloadButton = document.getElementById("download-button");
+
+    let activePath = null;
+    let markdownCache = "";
+    const buttonMap = new Map();
+
+    function buildChapterList() {
+      BOOK_STRUCTURE.forEach(group => {
+        const container = document.createElement("div");
+        container.className = "chapter-group";
+
+        const title = document.createElement("div");
+        title.className = "chapter-group-title";
+        title.textContent = group.title;
+        container.appendChild(title);
+
+        group.items.forEach(item => {
+          const btn = document.createElement("div");
+          btn.className = "chapter-item";
+          btn.dataset.path = item.path;
+
+          const mainTitle = document.createElement("div");
+          mainTitle.className = "chapter-title";
+          mainTitle.textContent = item.title;
+
+          const subtitle = document.createElement("div");
+          subtitle.className = "chapter-subtitle";
+          subtitle.textContent = item.subtitle;
+
+          btn.appendChild(mainTitle);
+          btn.appendChild(subtitle);
+          btn.addEventListener("click", () => selectChapter(item.path));
+
+          container.appendChild(btn);
+          buttonMap.set(item.path, btn);
+        });
+
+        chapterList.appendChild(container);
+      });
+    }
+
+    function setActiveButton(path) {
+      buttonMap.forEach(btn => btn.classList.remove("active"));
+      const activeBtn = buttonMap.get(path);
+      if (activeBtn) {
+        activeBtn.classList.add("active");
+        activeBtn.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+    }
+
+    // Use marked.js if available, otherwise fallback to text
+    function convertMarkdownToHtml(markdown = "") {
+      if (typeof marked !== 'undefined') {
+        return marked.parse(markdown);
+      }
+      return "<p>Error: Marked.js library not loaded. Please check your internet connection.</p><pre>" + markdown + "</pre>";
+    }
+
+    function renderMarkdown(text, normalizedPath, sourceLabel) {
+      markdownCache = text;
+      markdownOutput.textContent = text;
+      
+      // Render HTML
+      markdownHtml.innerHTML = convertMarkdownToHtml(text);
+      
+      // Trigger MathJax typeset
+      if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+        MathJax.typesetPromise([markdownHtml]).catch((err) => console.log('MathJax error:', err));
+      }
+
+      currentPathEl.textContent = normalizedPath;
+      statusText.textContent = sourceLabel || "加载完成";
+    }
+
+    function loadFromEmbedded(path) {
+      const normalized = normalizePath(path);
+      const cached = EMBEDDED_MARKDOWN[normalized];
+      if (typeof cached === "string") {
+        renderMarkdown(cached, normalized, IS_FILE_PROTOCOL ? "已从内置数据加载" : "已从内置缓存加载");
+        return true;
+      }
+      return false;
+    }
+
+    async function fetchMarkdown(path) {
+      const normalized = normalizePath(path);
+
+      // In file protocol, we MUST use the embedded data because fetch() is blocked by CORS policy
+      if (IS_FILE_PROTOCOL) {
+        if (!loadFromEmbedded(path)) {
+          markdownCache = "";
+          markdownOutput.textContent = "浏览器在 file:// 协议下禁止读取其他文件，且离线数据未更新。请运行 node scripts/generate-viewer-data.mjs 生成最新数据。";
+          currentPathEl.textContent = normalized;
+          statusText.textContent = "数据缺失";
+        }
+        return;
+      }
+
+      // In HTTP mode, try to fetch live file first to ensure latest content
+      try {
+        statusText.textContent = "加载中...";
+        // Add timestamp to bypass browser cache
+        const response = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`无法加载：${response.status}`);
+        }
+        const text = await response.text();
+        renderMarkdown(text, normalized);
+      } catch (error) {
+        console.warn("Fetch failed, falling back to embedded data", error);
+        if (!loadFromEmbedded(path)) {
+          markdownCache = "";
+          markdownOutput.textContent = `加载失败：${error.message}`;
+          currentPathEl.textContent = normalized;
+          statusText.textContent = "加载失败";
+        }
+      }
+    }
+
+    function selectChapter(path) {
+      if (path === activePath) return;
+      activePath = path;
+      setActiveButton(path);
+      updateHash(path);
+      fetchMarkdown(path);
+    }
+
+    function updateHash(path) {
+      const hash = encodeURIComponent(path);
+      if (window.location.hash !== `#${hash}`) {
+        window.location.hash = hash;
+      }
+    }
+
+    function restoreFromHash() {
+      const hash = window.location.hash.slice(1);
+      if (hash) {
+        const decoded = decodeURIComponent(hash);
+        if (buttonMap.has(decoded)) {
+          activePath = decoded;
+          setActiveButton(decoded);
+          fetchMarkdown(decoded);
+          return;
+        }
+      }
+      const fallback = BOOK_STRUCTURE[0].items[0].path;
+      selectChapter(fallback);
+    }
+
+    copyButton.addEventListener("click", async () => {
+      if (!markdownCache) return;
+      try {
+        await navigator.clipboard.writeText(markdownCache);
+        statusText.textContent = "已复制到剪贴板";
+      } catch {
+        statusText.textContent = "复制失败，请手动选择文本";
+      }
+    });
+
+    downloadButton.addEventListener("click", () => {
+      if (!activePath) return;
+      const normalized = normalizePath(activePath);
+      if (IS_FILE_PROTOCOL) {
+        const cached = EMBEDDED_MARKDOWN[normalized];
+        if (!cached) {
+          statusText.textContent = "离线缓存缺失，无法下载";
+          return;
+        }
+        const blob = new Blob([cached], { type: "text/markdown;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = normalized.split("/").pop() || "chapter.md";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+        return;
+      }
+      const link = document.createElement("a");
+      link.href = new URL(activePath, window.location.href).href;
+      link.download = normalized.split("/").pop() || "chapter.md";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    });
+
+    window.addEventListener("hashchange", restoreFromHash);
+
+    buildChapterList();
+    restoreFromHash();
+  </script>
+</body>
+</html>
+
