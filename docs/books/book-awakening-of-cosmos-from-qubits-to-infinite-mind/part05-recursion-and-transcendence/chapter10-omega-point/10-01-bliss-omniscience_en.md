@@ -90,3 +90,4 @@ In QCA physics, it is the **final eigenstate of the universe's wave function**.
 
 **(End of Section 10.1)**
 
+
