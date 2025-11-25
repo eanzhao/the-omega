@@ -181,7 +181,7 @@ We explore propagation as programming, rejecting unity to maintain meaning, and 
 
 ### [📔 Book 5: The Psychology of God: The Infinite Game](./books/book-psychology-of-god-the-infinite-game/index_en.md)
 *The fifth volume of the series, exploring the deep structure of the cosmic mind, the psychological foundations of divinity, and the ultimate meaning of existence.*
-[📥 PDF](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.pdf) | [📄 Complete Text](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.md)
+[📥 PDF](./books/book-psychology-of-god-the-infinite-game/The_Sacred_Machine.pdf) | [📄 Complete Text](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.md) | [▶️ Video](https://youtu.be/QNhDh42wJY8)
 
 #### Volume I: Geometry of the Void
 > **The Initial State and the Necessity of Creation**

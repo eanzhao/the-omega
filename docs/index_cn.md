@@ -181,7 +181,7 @@
 
 ### [📔 第五部：上帝的心理学——无限的游戏](./books/book-psychology-of-god-the-infinite-game/index.md)
 *系列丛书的第五部，探讨宇宙心智的深层结构、神性的心理学基础以及存在的终极意义。*
-[📥 PDF](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.pdf) | [📄 完整文本](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.md)
+[📥 PDF](./books/book-psychology-of-god-the-infinite-game/The_Sacred_Machine.pdf) | [📄 完整文本](./books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.md) | [▶️ 视频](https://youtu.be/bDgWYly-JmE)
 
 #### 第一卷：虚无的几何学
 > **初始状态与创造的必要性**
