@@ -220,7 +220,7 @@ This project hosts five core texts, tracing the derivation from abstract axioms 
 
 ### [📔 Book 5: The Psychology of God: The Infinite Game](https://omega.dw.cash/books/book-psychology-of-god-the-infinite-game/index_en.html)
 *The fifth volume of the series, exploring the deep structure of the cosmic mind, the psychological foundations of divinity, and the ultimate meaning of existence.*
-[📥 PDF](https://omega.dw.cash/books/book-psychology-of-god-the-infinite-game/The_Sacred_Machine.pdf) | [📄 Complete Text](./docs/books/book-psychology-of-god-the-infinite-game/book-psychology-of-god-the-infinite-game-complete.md) | [▶️ Video](https://youtu.be/QNhDh42wJY8)
+[📥 PDF](https://omega.dw.cash/books/book-psychology-of-god-the-infinite-game/The_Sacred_Machine.pdf) | [▶️ Video](https://youtu.be/QNhDh42wJY8)
 
 #### Volume I: Geometry of the Void
 *The initial state and the necessity of creation.*
